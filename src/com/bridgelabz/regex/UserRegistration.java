@@ -132,8 +132,8 @@ public class UserRegistration {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the PassWord : ");
         String passWord2 = scanner.next();
-        String regex6 = "^(?=.*[A-Z])(?=.*[0-9])(?=.*[@$!%*#?&])[A-Za-z0-9@$!%*?&]{5,}$";
-        Pattern p6 = Pattern.compile(regex6);
+        String regex7 = "^(?=.*[A-Z])(?=.*[0-9])(?=.*[@$!%*#?&])[A-Za-z0-9@$!%*?&]{5,}$";
+        Pattern p6 = Pattern.compile(regex7);
         Matcher m6 = p6.matcher(passWord2);
         boolean r6 = m6.matches();
         if (r6)
